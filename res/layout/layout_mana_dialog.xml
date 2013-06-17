@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="5sp"
+        android:drawableLeft="@drawable/mana_any"
+        android:drawablePadding="15sp"
+        android:gravity="center|left"
+        android:text="@string/mana_white"
+        android:textSize="20sp" >
+    </TextView>
+
+    <View
+        android:id="@+id/manaDialogDivider1"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_margin="5sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="5sp"
+        android:background="#ffffff" />
+
+    <LinearLayout
+        android:id="@+id/manaDialogLayoutMiddle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="4sp" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/minus1Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/minus1" />
+
+            <Button
+                android:id="@+id/minus5Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/minus5" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/valueTextView"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/zero"
+            android:textSize="80sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/plus1Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/plus1" />
+
+            <Button
+                android:id="@+id/plus5Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/plus5" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/manaDialogDivider2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_margin="5sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:background="#ffffff" />
+
+    <LinearLayout
+        android:id="@+id/manaDialogLayoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp" >
+
+        <Button
+            android:id="@+id/dialogCancelButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/dialogClearButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/clear" />
+
+        <Button
+            android:id="@+id/dialogOkayButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/okay" />
+    </LinearLayout>
+
+</LinearLayout>

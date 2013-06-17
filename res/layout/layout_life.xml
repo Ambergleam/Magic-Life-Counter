@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:baselineAligned="false"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/playerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/normal_good"
+            android:textSize="20dp" >
+        </TextView>
+
+        <View
+            android:id="@+id/firstDivider1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/playerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <ScrollView
+                android:id="@+id/poisonView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:fillViewport="true" >
+
+                <LinearLayout
+                    android:id="@+id/poisonLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </ScrollView>
+
+            <View
+                android:id="@+id/playerDivider"
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8sp"
+                android:background="#777777" >
+            </View>
+
+            <ScrollView
+                android:id="@+id/lifeView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:fillViewport="true" >
+
+                <LinearLayout
+                    android:id="@+id/lifeLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/verticalDivider"
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:gravity="center" >
+    </View>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/opponentTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/normal_bad"
+            android:textSize="20dp" >
+        </TextView>
+
+        <View
+            android:id="@+id/firstDivider2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/opponentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <ScrollView
+                android:id="@+id/lifeView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:fillViewport="true" >
+
+                <LinearLayout
+                    android:id="@+id/lifeLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </ScrollView>
+
+            <View
+                android:id="@+id/opponentDivider"
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="8sp"
+                android:background="#777777" >
+            </View>
+
+            <ScrollView
+                android:id="@+id/poisonView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:fillViewport="true" >
+
+                <LinearLayout
+                    android:id="@+id/poisonLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Magic Life Counter Free</string>
+    <string name="blank"></string>
+    <string name="coinToss">Coin Toss</string>
+    <string name="dieRoll">Six-Sided Die Roll</string>
+    <string name="d3">(d3)</string>
+    <string name="d4">(d4)</string>
+    <string name="d6">(d6)</string>
+    <string name="d8">(d8)</string>
+    <string name="d10">(d10)</string>
+    <string name="d12">(d12)</string>
+    <string name="d20">(d20)</string>
+    <string name="d30">(d30)</string>
+    <string name="dPercent" formatted="false">(d%)</string>
+    <string name="moreOptions">More Options:</string>
+    <string name="reset">Reset</string>
+    <string name="normal_good">You</string>
+    <string name="normal_bad">Enemy</string>
+    <string name="plus5">+5</string>
+    <string name="plus1">+1</string>
+    <string name="minus5">-5</string>
+    <string name="minus1">-1</string>
+    <string name="okay">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="zero">0</string>
+    <string name="clear">Clear</string>
+    <string name="clear_mana">Clear Mana Pool</string>
+    <string name="mana_white">White Mana</string>
+    <string name="mana_black">Black Mana</string>
+    <string name="mana_blue">Blue Mana</string>
+    <string name="mana_red">Red Mana</string>
+    <string name="mana_green">Green Mana</string>
+    <string name="mana_colorless">Colorless Mana</string>
+    <string name="mana_any">Any Color Mana</string>
+    <string name="player_life">Player Life</string>
+    <string name="player_poison">Player Poison</string>
+    <string name="opponent_life">Enemy Life</string>
+    <string name="opponent_poison">Enemy Poison</string>
+    <string name="subtract">Subtract</string>
+    <string name="add">Add</string>
+    <string name="result">Result of Random Number Generator</string>
+
+</resources>
